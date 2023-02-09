@@ -35,7 +35,7 @@ function custom_block_pattern() {
            
             'description' => _x( 'Description here', 'saas-landing' ),
            
-            'content'     => "<!-- wp:columns {\"style\":{\"border\":{\"radius\":\"14px\",\"width\":\"1px\"},\"color\":{\"background\":\"#f5f1ea\"}},\"borderColor\":\"contrast\",\"className\":\"custom-card card-1\"} -->\r\n<div class=\"wp-block-columns custom-card card-1 has-border-color has-contrast-border-color has-background\" style=\"border-width:1px;border-radius:14px;background-color:#f5f1ea\"><!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:columns -->\r\n<div class=\"wp-block-columns\"><!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"15%\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"flex-basis:15%\"><!-- wp:image {\"id\":15,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\r\n<figure class=\"wp-block-image size-full\"><img src=\"http://saaslanding.local/wp-content/uploads/2023/02/Icon.png\" alt=\"\" class=\"wp-image-15\"/></figure>\r\n<!-- /wp:image --></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"width\":\"40%\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"}}}} -->\r\n<div class=\"wp-block-column\" style=\"padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;flex-basis:40%\"><!-- wp:heading {\"style\":{\"typography\":{\"fontSize\":\"24px\"}}} -->\r\n<h2 style=\"font-size:24px\">Overview</h2>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:paragraph {\"style\":{\"typography\":{\"fontSize\":\"16px\"},\"spacing\":{\"padding\":{\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\"}}}} -->\r\n<p style=\"padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;font-size:16px\">The most important data for your store, all in one view</p>\r\n<!-- /wp:paragraph --></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"verticalAlignment\":\"center\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-center\"><!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\r\n<div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"base\",\"style\":{\"border\":{\"radius\":\"6px\"}},\"className\":\"is-style-outline\"} -->\r\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link has-base-background-color has-background wp-element-button\" style=\"border-radius:6px\">Add View</a></div>\r\n<!-- /wp:button --></div>\r\n<!-- /wp:buttons --></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns --></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns -->",
+            'content'     => "<!-- wp:columns {\"style\":{\"border\":{\"radius\":\"14px\",\"width\":\"1px\"},\"color\":{\"background\":\"#f5f1ea\"}},\"borderColor\":\"contrast\",\"className\":\"saas-custom-card\"} -->\r\n<div class=\"wp-block-columns saas-custom-card has-border-color has-contrast-border-color has-background\" style=\"border-width:1px;border-radius:14px;background-color:#f5f1ea\"><!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:columns {\"className\":\"sass-cards-container\"} -->\r\n<div class=\"wp-block-columns sass-cards-container\"><!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"15%\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"flex-basis:15%\"><!-- wp:image {\"id\":15,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\r\n<figure class=\"wp-block-image size-full\"><img src=\"http://saaslanding.local/wp-content/uploads/2023/02/Icon.png\" alt=\"\" class=\"wp-image-15\"/></figure>\r\n<!-- /wp:image --></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"width\":\"40%\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\",\"left\":\"0px\"}}}} -->\r\n<div class=\"wp-block-column\" style=\"padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;flex-basis:40%\"><!-- wp:heading {\"style\":{\"typography\":{\"fontSize\":\"24px\"}}} -->\r\n<h2 style=\"font-size:24px\">Overview</h2>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:paragraph {\"style\":{\"typography\":{\"fontSize\":\"16px\"},\"spacing\":{\"padding\":{\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\"}}}} -->\r\n<p style=\"padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;font-size:16px\">The most important data for your store, all in one view</p>\r\n<!-- /wp:paragraph --></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"verticalAlignment\":\"center\"} -->\r\n<div class=\"wp-block-column is-vertically-aligned-center\"><!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\r\n<div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"white\",\"style\":{\"border\":{\"radius\":\"6px\"}},\"className\":\"is-style-outline\"} -->\r\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link has-white-background-color has-background wp-element-button\" style=\"border-radius:6px\">Add View</a></div>\r\n<!-- /wp:button --></div>\r\n<!-- /wp:buttons --></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns --></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns -->",
            
             'categories'  => array( 'Daniel\'s Test' ),
         )
@@ -45,6 +45,188 @@ function custom_block_pattern() {
         'saas-landing/custom-block-name-3',
         array(
             'title'       => __( 'Test 3', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-4',
+        array(
+            'title'       => __( 'Test 4', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-5',
+        array(
+            'title'       => __( 'Test 5', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-6',
+        array(
+            'title'       => __( 'Test 6', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-7',
+        array(
+            'title'       => __( 'Test 7', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-8',
+        array(
+            'title'       => __( 'Test 8', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-9',
+        array(
+            'title'       => __( 'Test 9', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-10',
+        array(
+            'title'       => __( 'Test 10', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-11',
+        array(
+            'title'       => __( 'Test 11', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-12',
+        array(
+            'title'       => __( 'Test 12', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-13',
+        array(
+            'title'       => __( 'Test 13', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-14',
+        array(
+            'title'       => __( 'Test 14', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-15',
+        array(
+            'title'       => __( 'Test 15', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-16',
+        array(
+            'title'       => __( 'Test 16', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
+        'saas-landing/custom-block-name-17',
+        array(
+            'title'       => __( 'Test 17', 'saas-landing' ),
            
             'description' => _x( 'Description here', 'saas-landing' ),
            
