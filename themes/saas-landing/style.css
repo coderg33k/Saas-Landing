@@ -905,6 +905,11 @@ textarea {
   color: #EBFFDB;
 }
 
+.saas-card16 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
 .saas-card18 {
   border: 2px solid black;
   border-radius: 16px;
