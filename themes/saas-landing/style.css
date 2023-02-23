@@ -826,6 +826,14 @@ textarea {
   display: block;
 }
 
+.saas-hero {
+  align-items: center;
+}
+
+.saas-logo-section-image {
+  align-items: center;
+}
+
 .saas-card01 {
   border: 2px solid black;
   border-radius: 16px;
@@ -908,6 +916,19 @@ textarea {
 .saas-card16 {
   border: 2px solid black;
   border-radius: 16px;
+}
+
+.saas-card16-image {
+  margin-bottom: -40px;
+}
+
+.saas-card17 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.saas-card17-image {
+  margin-bottom: -40px;
 }
 
 .saas-card18 {

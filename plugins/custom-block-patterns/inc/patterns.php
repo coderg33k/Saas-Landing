@@ -16,6 +16,19 @@ register_block_pattern_category(
 function custom_block_pattern() {
 
     register_block_pattern(
+        'saas-landing/custom-block-hero',
+        array(
+            'title'       => __( 'Hero', 'saas-landing' ),
+           
+            'description' => _x( 'Description here', 'saas-landing' ),
+           
+            'content'     => "<!-- wp:columns {\"className\":\"saas-hero\"} -->\r\n<div class=\"wp-block-columns saas-hero\"><!-- wp:column -->\r\n<div class=\"wp-block-column\"><!-- wp:media-text {\"mediaId\":241,\"mediaLink\":\"http://saaslanding.local/cards/\",\"mediaType\":\"image\"} -->\r\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile\"><figure class=\"wp-block-media-text__media\"><img src=\"http://saaslanding.local/wp-content/uploads/2023/02/Cards-1024x892.png\" alt=\"\" class=\"wp-image-241 size-full\"/></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading -->\r\n<h2>The data layer between your business and its potential.</h2>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:paragraph {\"placeholder\":\"Content…\"} -->\r\n<p>Comprehensive reports, data visualizations, and insights to optimize your ecommerce store and help you reach your goals.</p>\r\n<!-- /wp:paragraph -->\r\n\r\n<!-- wp:paragraph -->\r\n<p><strong>GET STARTED</strong></p>\r\n<!-- /wp:paragraph --></div></div>\r\n<!-- /wp:media-text --></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns -->",
+           
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
+
+    register_block_pattern(
         'saas-landing/custom-block-card01',
         array(
             'title'       => __( 'Card 1', 'saas-landing' ),
@@ -210,31 +223,31 @@ function custom_block_pattern() {
         )
     );
 
-    // register_block_pattern(
-    //     'saas-landing/custom-block-card16',
-    //     array(
-    //         'title'       => __( 'Card 16', 'saas-landing' ),
+    register_block_pattern(
+        'saas-landing/custom-block-card16',
+        array(
+            'title'       => __( 'Card 16', 'saas-landing' ),
            
-    //         'description' => _x( 'Description here', 'saas-landing' ),
+            'description' => _x( 'Description here', 'saas-landing' ),
            
-    //         'content'     => "",
+            'content'     => "<!-- wp:columns {\"style\":{\"color\":{\"background\":\"#fffba0\"}},\"className\":\"saas-card16\"} -->\r\n<div class=\"wp-block-columns saas-card16 has-background\" style=\"background-color:#fffba0\"><!-- wp:column {\"width\":\"600px\"} -->\r\n<div class=\"wp-block-column\" style=\"flex-basis:600px\"><!-- wp:heading -->\r\n<h2>Sales Data</h2>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:image {\"align\":\"right\",\"id\":187,\"width\":235,\"height\":235,\"sizeSlug\":\"full\",\"linkDestination\":\"none\",\"className\":\"saas-card16-image\"} -->\r\n<figure class=\"wp-block-image alignright size-full is-resized saas-card16-image\"><img src=\"http://saaslanding.local/wp-content/uploads/2023/02/Card.png\" alt=\"\" class=\"wp-image-187\" width=\"235\" height=\"235\"/></figure>\r\n<!-- /wp:image -->\r\n\r\n<!-- wp:list -->\r\n<ul><!-- wp:list-item -->\r\n<li>Compare your net sales over any time frame.</li>\r\n<!-- /wp:list-item -->\r\n\r\n<!-- wp:list-item -->\r\n<li>Map your highest-performing products to your sales -- by units or by dollars.</li>\r\n<!-- /wp:list-item -->\r\n\r\n<!-- wp:list-item -->\r\n<li>Understand the percentage of first-time and repeat customers driving sales.</li>\r\n<!-- /wp:list-item --></ul>\r\n<!-- /wp:list --></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns -->",
            
-    //         'categories'  => array( 'Daniel\'s Test' ),
-    //     )
-    // );
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
 
-    // register_block_pattern(
-    //     'saas-landing/custom-block-card17',
-    //     array(
-    //         'title'       => __( 'Card 17', 'saas-landing' ),
+    register_block_pattern(
+        'saas-landing/custom-block-card17',
+        array(
+            'title'       => __( 'Card 17', 'saas-landing' ),
            
-    //         'description' => _x( 'Description here', 'saas-landing' ),
+            'description' => _x( 'Description here', 'saas-landing' ),
            
-    //         'content'     => "",
+            'content'     => "<!-- wp:columns {\"style\":{\"color\":{\"background\":\"#c5b6f0\"}},\"className\":\"saas-card16\"} -->\r\n<div class=\"wp-block-columns saas-card16 has-background\" style=\"background-color:#c5b6f0\"><!-- wp:column {\"width\":\"600px\"} -->\r\n<div class=\"wp-block-column\" style=\"flex-basis:600px\"><!-- wp:heading -->\r\n<h2>Site Performance</h2>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:image {\"align\":\"right\",\"id\":225,\"sizeSlug\":\"full\",\"linkDestination\":\"none\",\"className\":\"saas-card17-image\"} -->\r\n<figure class=\"wp-block-image alignright size-full saas-card17-image\"><img src=\"http://saaslanding.local/wp-content/uploads/2023/02/Group-3693.png\" alt=\"\" class=\"wp-image-225\"/></figure>\r\n<!-- /wp:image -->\r\n\r\n<!-- wp:list -->\r\n<ul><!-- wp:list-item -->\r\n<li>Track your site performance over time.</li>\r\n<!-- /wp:list-item -->\r\n\r\n<!-- wp:list-item -->\r\n<li>Unpack the customer journey -- from visitor to purchaser.</li>\r\n<!-- /wp:list-item -->\r\n\r\n<!-- wp:list-item -->\r\n<li>Gain a better sense of the quality of traffic you\'re driving.</li>\r\n<!-- /wp:list-item --></ul>\r\n<!-- /wp:list --></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns -->",
            
-    //         'categories'  => array( 'Daniel\'s Test' ),
-    //     )
-    // );
+            'categories'  => array( 'Daniel\'s Test' ),
+        )
+    );
 
     register_block_pattern(
         'saas-landing/custom-block-card18',
