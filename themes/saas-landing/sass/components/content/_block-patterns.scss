@@ -11,17 +11,20 @@ align-items: center;
     border: 2px solid black;
     border-radius: 16px;
     color: #EBFFDB;
+    height: 535px;
+    width: 370px;
 }
 
 .saas-card01-image {
-    padding-left: 120px;
-    margin-bottom: -30px;
+    // padding-left: 120px;
+    margin-bottom: 40px;
 }
 
 .saas-card02 {
     border: 2px solid black;
     border-radius: 16px;
     color: #D5E9F8;
+    height: 535px;
 }
 
 .saas-card02-image {
@@ -33,6 +36,7 @@ align-items: center;
     border: 2px solid black;
     border-radius: 16px;
     color: #C5B6F0;
+    height: 535px;
 }
 
 .saas-card03-image {
@@ -95,47 +99,35 @@ align-items: center;
 //     margin: ;
 // }
 
-// .saas-card09 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card09 {
+    border: 2px solid black;
+    border-radius: 16px;
+}
 
-// .saas-card10 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card10 {
+    border: 2px solid black;
+    border-radius: 16px;
+}
 
-// .saas-card11 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card11 {
+    border: 2px solid black;
+    border-radius: 16px;
+}
 
-// .saas-card12 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card12 {
+    border: 2px solid black;
+    border-radius: 16px;
+}
 
-// .saas-card13 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card13 {
+    border: 2px solid black;
+    border-radius: 16px;
+}
 
-// .saas-card14 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card14 {
+    border: 2px solid black;
+    border-radius: 16px;
+}
 
 .saas-card15 {
     border: 2px solid black;
@@ -173,26 +165,22 @@ align-items: center;
     color: #FEF4DB;
 }
 
-// .saas-card20 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card20 {
+    border: 2px solid black;
+    border-radius: 16px;
+}
 
-// .saas-card21 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card21 {
+    border: 2px solid black;
+    border-radius: 16px;
+    height: 430px;
+}
 
-// .saas-card22 {
-//     width: ;
-//     height: ;
-//     padding: ;
-//     margin: ;
-// }
+.saas-card22 {
+    border: 2px solid black;
+    border-radius: 16px;
+    height: 430px;
+}
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -218,4 +206,12 @@ align-items: center;
     background-color: white;
     display: none;
     overflow: hidden;
+  }
+
+  .saas-footer1 {
+    height: 3px;
+  }
+  
+  .saas-footer2 {
+    height: 3px;
   }

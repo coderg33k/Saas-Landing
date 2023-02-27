@@ -60,6 +60,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://use.typekit.net/hzt8jtg.css");
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -619,6 +620,33 @@ textarea {
 --------------------------------------------------------------*/
 /* Navigation
 --------------------------------------------- */
+* {
+  letter-spacing: 1px;
+}
+
+/* Website Colors */
+/* Website Typography */
+.site-header {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.site-header .site-branding {
+  float: left;
+  margin: 10px -5px;
+  height: 10px;
+  width: 175px;
+  border-radius: 16px;
+  padding-left: 25px;
+}
+
+#primary-menu {
+  width: 500px;
+}
+
 .main-navigation {
   display: block;
   width: 100%;
@@ -626,7 +654,7 @@ textarea {
 .main-navigation ul {
   display: none;
   list-style: none;
-  margin: 0;
+  margin: -43px -500px 0;
   padding-left: 0;
 }
 .main-navigation ul ul {
@@ -658,20 +686,217 @@ textarea {
 .main-navigation a {
   display: block;
   text-decoration: none;
+  color: #000000;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 14px 14px 8px;
+}
+.main-navigation a:hover {
+  color: #00adee;
+}
+.main-navigation .donate-now a {
+  width: 270px;
+  background-color: #0b4a7c;
+  border-radius: 5px;
+  height: 60px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-navigation .donate-now {
+  border-bottom: none !important;
 }
 /* Small menu. */
+.visuallyHidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.hamburger {
+  margin: 0 auto;
+  width: 25px;
+  height: 30px;
+  position: relative;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+  scale: 0.75;
+}
+
+.hamburger .bar {
+  padding: 0;
+  width: 25px;
+  height: 4px;
+  background-color: #0a0a0a;
+  display: block;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+}
+
+.bar1 {
+  top: 0;
+}
+
+.bar2,
+.bar3 {
+  top: 11px;
+}
+
+.bar3 {
+  right: 0;
+}
+
+.bar4 {
+  bottom: 4px;
+}
+
+.hamburger3 .bar1 {
+  transform-origin: 0%;
+}
+
+.hamburger3 .bar4 {
+  transform-origin: 5%;
+}
+
+.checkbox3:checked + label > .hamburger3 > .bar1 {
+  transform: rotate(45deg);
+  height: 3px;
+  width: 33px;
+}
+
+.checkbox3:checked + label > .hamburger3 > .bar3 {
+  transform: rotate(45deg);
+  height: 3px;
+  background-color: transparent;
+}
+
+.checkbox3:checked + label > .hamburger3 > .bar2 {
+  transform: rotate(-45deg);
+  height: 3px;
+  background-color: transparent;
+}
+
+.checkbox3:checked + label > .hamburger3 > .bar4 {
+  transform: rotate(-45deg);
+  height: 3px;
+  width: 33px;
+}
+
 .menu-toggle,
-.main-navigation.toggled ul {
+.main-navigation .toggled ul {
   display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+.menu-toggle {
+  margin-top: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.main-navigation.toggled ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px;
+}
+.main-navigation.toggled ul li {
+  padding: 20px 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
+  .menu-toggle,
+.main-navigation .toggled ul {
+    display: block;
+    float: right;
+  }
+
+  .menu-toggle {
+    margin-top: 5px;
+    background-color: transparent;
+    border: solid;
+    border-color: #000000;
+  }
+
+  .main-navigation.toggled ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 0;
+  }
+  .main-navigation.toggled ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e4e4e4;
+    line-height: 20px;
+  }
+
+  .main-navigation .donate-now a {
+    height: fit-content;
+  }
+
+  .site-header {
+    height: 60px;
+    width: 100%;
+    background-color: green;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+  .site-header .site-branding {
+    float: left;
+    margin: 20px 25px;
+    height: 10px;
+    width: 137px;
+    border-radius: 16px;
+  }
+}
+@media screen and (min-width: 830px) {
+  .site-header {
+    padding: 0 4%;
+  }
+
   .menu-toggle {
     display: none;
   }
 
   .main-navigation ul {
     display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-navigation a {
+    line-height: 1.8em;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .main-navigation .donate-now a {
+    width: 160px;
+    height: 40px;
+    margin: 10px;
+    line-height: 0.7em;
+  }
+
+  .main-navigation .current_page_item::after {
+    content: "";
+    display: inherit;
+    width: 30px;
+    margin: 0 auto;
+    border-bottom: 5px solid #00adee;
+    border-bottom-width: 5.9px;
   }
 }
 .site-main .comment-navigation,
@@ -838,17 +1063,19 @@ textarea {
   border: 2px solid black;
   border-radius: 16px;
   color: #EBFFDB;
+  height: 535px;
+  width: 370px;
 }
 
 .saas-card01-image {
-  padding-left: 120px;
-  margin-bottom: -30px;
+  margin-bottom: 40px;
 }
 
 .saas-card02 {
   border: 2px solid black;
   border-radius: 16px;
   color: #D5E9F8;
+  height: 535px;
 }
 
 .saas-card02-image {
@@ -860,6 +1087,7 @@ textarea {
   border: 2px solid black;
   border-radius: 16px;
   color: #C5B6F0;
+  height: 535px;
 }
 
 .saas-card03-image {
@@ -907,6 +1135,36 @@ textarea {
   margin: -20px 0px 0px 0px;
 }
 
+.saas-card09 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.saas-card10 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.saas-card11 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.saas-card12 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.saas-card13 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.saas-card14 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
 .saas-card15 {
   border: 2px solid black;
   border-radius: 16px;
@@ -943,6 +1201,23 @@ textarea {
   color: #FEF4DB;
 }
 
+.saas-card20 {
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.saas-card21 {
+  border: 2px solid black;
+  border-radius: 16px;
+  height: 430px;
+}
+
+.saas-card22 {
+  border: 2px solid black;
+  border-radius: 16px;
+  height: 430px;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
@@ -967,6 +1242,14 @@ textarea {
   background-color: white;
   display: none;
   overflow: hidden;
+}
+
+.saas-footer1 {
+  height: 3px;
+}
+
+.saas-footer2 {
+  height: 3px;
 }
 
 /*--------------------------------------------------------------
