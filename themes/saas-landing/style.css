@@ -1063,11 +1063,14 @@ textarea {
   align-items: center;
 }
 
+.data-service {
+  padding: 0 350px;
+}
+
 .saas-card01 {
   border: 2px solid black;
   border-radius: 16px;
   height: 535px;
-  width: 370px;
 }
 
 .saas-card01-image {
@@ -1078,7 +1081,6 @@ textarea {
   border: 2px solid black;
   border-radius: 16px;
   height: 535px;
-  width: 370px;
 }
 
 .saas-card02-image {
@@ -1090,47 +1092,34 @@ textarea {
   border: 2px solid black;
   border-radius: 16px;
   height: 535px;
-  width: 370px;
 }
 
 .saas-card04 {
   width: 534px;
   height: 134px;
-  padding: 0px 21px;
-  margin: 0;
-}
-
-.saas-card04-container {
-  width: 534px;
-  height: 134px;
 }
 
 .saas-card04-button {
-  padding: 0px 33px 0px 0px;
+  width: 100px;
+  height: 35px;
 }
 
-.saas-card04-paragraph {
-  margin: -20px 0px 0px 0px;
+.overview-reports {
+  padding: 0 350px;
 }
 
 .saas-card05 {
-  width: 534px;
-  height: 134px;
-  padding: 0px 21px;
-  margin: 0;
+  height: 136px;
 }
 
-.saas-card05-container {
-  width: 534px;
-  height: 134px;
+.saas-card05-image {
+  width: 80px;
+  height: 80px;
 }
 
 .saas-card05-button {
-  padding: 0px 33px 0px 0px;
-}
-
-.saas-card05-paragraph {
-  margin: -20px 0px 0px 0px;
+  width: 100px;
+  height: 35px;
 }
 
 .saas-card09 {

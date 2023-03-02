@@ -8,13 +8,15 @@
 .saas-logo-section-image {
 align-items: center;
 }
-
+.data-service{
+    padding: 0 350px;
+}
 .saas-card01 {
     border: 2px solid black;
     border-radius: 16px;
     // color: #EBFFDB;
     height: 535px;
-    width: 370px;
+    //width: 370px;
 }
 
 .saas-card01-image {
@@ -27,7 +29,7 @@ align-items: center;
     border-radius: 16px;
     // color: #D5E9F8;
     height: 535px;
-    width: 370px;
+   // width: 370px;
 }
 
 .saas-card02-image {
@@ -40,47 +42,52 @@ align-items: center;
     border-radius: 16px;
     // color: #C5B6F0;
     height: 535px;
-    width: 370px;
+    //width: 370px;
 }
 
-.saas-card03-image {
-    // padding-left: 120px;
-    // margin-bottom: 10px;
-}
+// .saas-card03-image {
+//     // padding-left: 120px;
+//     // margin-bottom: 10px;
+// }
 
 .saas-card04 {
     width: 534px;
     height: 134px;
-    padding: 0px 21px;
-    margin: 0;
-}
-.saas-card04-container {
-    width: 534px;
-    height: 134px;
-}
-.saas-card04-button {
-    padding: 0px 33px 0px 0px;
-}
-.saas-card04-paragraph {
-    margin: -20px 0px 0px 0px;
+    // padding: 0px 21px;
+    // margin: 0;
 }
 
-.saas-card05 {
-    width: 534px;
-    height: 134px;
-    padding: 0px 21px;
-    margin: 0;
+.saas-card04-button {
+    width: 100px;
+    height: 35px;
+    // padding: 0px 33px 0px 0px;
 }
-.saas-card05-container {
-    width: 534px;
-    height: 134px;
+// .saas-card04-paragraph {
+//     margin: -20px 0px 0px 0px;
+// }
+.overview-reports{
+    padding: 0 350px;
+}
+.saas-card05 {
+    //width: 534px;
+    height: 136px;
+    // padding: 0px 21px;
+    // margin: 0;
+}
+.saas-card05-image {
+    width: 80px;
+    height: 80px;
 }
 .saas-card05-button {
-    padding: 0px 33px 0px 0px;
+    // padding: 0px 33px 0px 0px;
+    width: 100px;
+    height: 35px;
 }
-.saas-card05-paragraph {
-    margin: -20px 0px 0px 0px;
-}
+// .saas-card05-paragraph {
+//     // // width: 220px;
+//     // height: 60px;
+//     // padding: 50px 0px 0px 0px;
+// }
 
 // .saas-card06 {
 //     width: ;
