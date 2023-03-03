@@ -1152,28 +1152,30 @@ textarea {
   border-radius: 16px;
 }
 
+.three-column-grid-container {
+  padding: 0 300px 0 375px;
+}
+
 .saas-card15 {
   border: 2px solid black;
   border-radius: 16px;
   color: #EBFFDB;
+  height: 616px;
+  margin-right: 20px;
 }
 
 .saas-card16 {
   border: 2px solid black;
   border-radius: 16px;
-}
-
-.saas-card16-image {
-  margin-bottom: -40px;
+  height: 286px;
+  margin-left: -30px;
 }
 
 .saas-card17 {
   border: 2px solid black;
   border-radius: 16px;
-}
-
-.saas-card17-image {
-  margin-bottom: -40px;
+  height: 286px;
+  margin-left: -30px;
 }
 
 .saas-card18 {

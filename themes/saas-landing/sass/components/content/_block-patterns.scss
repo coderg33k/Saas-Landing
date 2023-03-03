@@ -140,29 +140,42 @@ align-items: center;
     border-radius: 16px;
 }
 
+.three-column-grid-container {
+    padding: 0 300px 0 375px;
+}
+
 .saas-card15 {
     border: 2px solid black;
     border-radius: 16px;
     color: #EBFFDB;
+    // width: 370px;
+    height: 616px;
+    margin-right: 20px;
 }
 
 .saas-card16 {
     border: 2px solid black;
     border-radius: 16px;
+    // width: 770px;
+    height: 286px;
+    margin-left: -30px;
 }
 
-.saas-card16-image {
-    margin-bottom: -40px;
-}
+// .saas-card16-image {
+//     margin-bottom: 0px 0px 10px 0px;
+// }
 
 .saas-card17 {
     border: 2px solid black;
     border-radius: 16px;
+    // width: 770px;
+    height: 286px;
+    margin-left: -30px;
 }
 
-.saas-card17-image {
-    margin-bottom: -40px;
-}
+// .saas-card17-image {
+//     margin-bottom: -40px;
+// }
 
 .saas-card18 {
     border: 2px solid black;
